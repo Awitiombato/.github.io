@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - My Project Ideas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html" class="tab">Home</a>
+        <a href="about.html" class="tab">About Me</a>
+    </div>
+    <div class="content">
+        <h1>Welcome to My Project Ideas</h1>
+        <section>
+            <h2>Project 1</h2>
+            <p>Districting.</p>
+        </section>
+        <section>
+            <h2>Project 2</h2>
+            <p>Redistricting.</p>
+        </section>
+        <section>
+            <h2>Project 3</h2>
+            <p>Road extraction from high resolution remote sensing images.</p>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html" class="tab">Home</a>
+        <a href="about.html" class="tab">About Me</a>
+    </div>
+    <div class="content">
+        <h1>About Me</h1>
+        <section>
+            <p>Awiti Patterson is a GEGIS student at JKUAT.</p>
+            <button onclick="showMore()">Show More</button>
+            <p id="moreInfo" style="display:none;">Additional information about yourself.</p>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
